@@ -1,0 +1,18 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "App",
+  "private": true,
+  "scripts": {
+    "build": "webpack "
+  },
+  "dependencies": {
+    "@emotion/core": "10.0.10",
+    "@emotion/styled": "10.0.10",
+    "@emotion/styled-base": "10.0.10",
+    "component-lib": "1.0.0",
+    "emotion-theming": "10.0.10",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0"
+  }
+}
