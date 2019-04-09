@@ -19,10 +19,6 @@
     {
       "packageName": "app",
       "projectFolder": "packages/app"
-    },
-    {
-      "packageName": "component-lib",
-      "projectFolder": "packages/component-lib"
     }
   ]
 }

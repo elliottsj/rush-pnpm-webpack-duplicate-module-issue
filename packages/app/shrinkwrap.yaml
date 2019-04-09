@@ -2,7 +2,6 @@ dependencies:
   '@emotion/core': 10.0.10
   '@emotion/styled': 10.0.10
   '@emotion/styled-base': 10.0.10
-  '@rush-temp/app': 'file:projects/app.tgz'
   emotion-theming: 10.0.10
   react: 16.8.6
   react-dom: 16.8.6
@@ -51,20 +50,6 @@ packages:
       react: '>=16.3.0'
     resolution:
       integrity: sha512-U1aE2cOWUscjc8ZJ3Cx32udOzLeRoJwGxBH93xQD850oQFpwPKZARzdUtdc9SByUOwzSFYxhDhrpXnV34FJmWg==
-  /@emotion/core/10.0.10/react@16.8.6:
-    dependencies:
-      '@emotion/cache': 10.0.9
-      '@emotion/css': 10.0.9
-      '@emotion/serialize': 0.11.6
-      '@emotion/sheet': 0.9.2
-      '@emotion/utils': 0.11.1
-      react: 16.8.6
-    dev: false
-    id: registry.npmjs.org/@emotion/core/10.0.10
-    peerDependencies:
-      react: '>=16.3.0'
-    resolution:
-      integrity: sha512-U1aE2cOWUscjc8ZJ3Cx32udOzLeRoJwGxBH93xQD850oQFpwPKZARzdUtdc9SByUOwzSFYxhDhrpXnV34FJmWg==
   /@emotion/css/10.0.9:
     dependencies:
       '@emotion/serialize': 0.11.6
@@ -108,21 +93,6 @@ packages:
       '@emotion/utils': 0.11.1
       object-assign: 4.1.1
     dev: false
-    peerDependencies:
-      '@emotion/core': ^10.0.0
-      react: '>=16.3.0'
-    resolution:
-      integrity: sha512-uZwKrBfcH7jCRAQi5ZxsEGIZ+1Zr9/lof4TMsIolC0LSwpnWkQ+JRJLy+p4ZyATee9SdmyCV0sG/VTngVSnrpA==
-  /@emotion/styled-base/10.0.10/01895ff57056f507db66f14b99acf6d6:
-    dependencies:
-      '@emotion/core': /@emotion/core/10.0.10/react@16.8.6
-      '@emotion/is-prop-valid': 0.7.3
-      '@emotion/serialize': 0.11.6
-      '@emotion/utils': 0.11.1
-      object-assign: 4.1.1
-      react: 16.8.6
-    dev: false
-    id: registry.npmjs.org/@emotion/styled-base/10.0.10
     peerDependencies:
       '@emotion/core': ^10.0.0
       react: '>=16.3.0'
@@ -1120,18 +1090,6 @@ packages:
       hoist-non-react-statics: 3.3.0
       object-assign: 4.1.1
     dev: false
-    peerDependencies:
-      '@emotion/core': ^10.0.0
-    resolution:
-      integrity: sha512-E4SQ3Y91avxxydDgubi/po/GaC5MM1XHm8kcClKg1PA/TeOye0PiLBzAzlgt9dBzDRV9+qHDunsayPvzVYIYng==
-  /emotion-theming/10.0.10/@emotion!core@10.0.10:
-    dependencies:
-      '@emotion/core': /@emotion/core/10.0.10/react@16.8.6
-      '@emotion/weak-memoize': 0.2.2
-      hoist-non-react-statics: 3.3.0
-      object-assign: 4.1.1
-    dev: false
-    id: registry.npmjs.org/emotion-theming/10.0.10
     peerDependencies:
       '@emotion/core': ^10.0.0
     resolution:
@@ -2568,19 +2526,6 @@ packages:
       react: ^16.0.0
     resolution:
       integrity: sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
-  /react-dom/16.8.6/react@16.8.6:
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-      prop-types: 15.7.2
-      react: 16.8.6
-      scheduler: 0.13.6
-    dev: false
-    id: registry.npmjs.org/react-dom/16.8.6
-    peerDependencies:
-      react: ^16.0.0
-    resolution:
-      integrity: sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
   /react-is/16.8.6:
     dev: false
     resolution:
@@ -3279,29 +3224,6 @@ packages:
       webpack: 4.x.x
     resolution:
       integrity: sha512-t1M7G4z5FhHKJ92WRKwZ1rtvi7rHc0NZoZRbSkol0YKl4HvcC8+DsmGDmK7MmZxHSAetHagiOsjOB6MmzC2TUw==
-  /webpack-cli/3.3.0/webpack@4.29.6:
-    dependencies:
-      chalk: 2.4.2
-      cross-spawn: 6.0.5
-      enhanced-resolve: 4.1.0
-      findup-sync: 2.0.0
-      global-modules: 1.0.0
-      import-local: 2.0.0
-      interpret: 1.2.0
-      loader-utils: 1.2.3
-      supports-color: 5.5.0
-      v8-compile-cache: 2.0.2
-      webpack: 4.29.6
-      yargs: 12.0.5
-    dev: false
-    engines:
-      node: '>=6.11.5'
-    hasBin: true
-    id: registry.npmjs.org/webpack-cli/3.3.0
-    peerDependencies:
-      webpack: 4.x.x
-    resolution:
-      integrity: sha512-t1M7G4z5FhHKJ92WRKwZ1rtvi7rHc0NZoZRbSkol0YKl4HvcC8+DsmGDmK7MmZxHSAetHagiOsjOB6MmzC2TUw==
   /webpack-sources/1.3.0:
     dependencies:
       source-list-map: 2.0.1
@@ -3421,23 +3343,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-Lhz8TLaYnxq/2ObqHDql8dX8CJi97oHxrjUcYtzKbbykPtVW9WB+poxI+NM2UIzsMgNCZTIf0AQwsjK5yMAqZw==
-  'file:projects/app.tgz':
-    dependencies:
-      '@emotion/core': /@emotion/core/10.0.10/react@16.8.6
-      '@emotion/styled': 10.0.10
-      '@emotion/styled-base': /@emotion/styled-base/10.0.10/01895ff57056f507db66f14b99acf6d6
-      emotion-theming: /emotion-theming/10.0.10/@emotion!core@10.0.10
-      react: 16.8.6
-      react-dom: /react-dom/16.8.6/react@16.8.6
-      serve: 11.0.0
-      webpack: 4.29.6
-      webpack-cli: /webpack-cli/3.3.0/webpack@4.29.6
-    dev: false
-    name: '@rush-temp/app'
-    resolution:
-      integrity: sha512-sqQSt3xwOfMfv6qBkMpuIAfFXihuPPTqonRqA534mH5yJPe2l3SiB8dsZrO3l8HQ9a+H3MT93v77hRQUyZ300w==
-      tarball: 'file:projects/app.tgz'
-    version: 0.0.0
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
@@ -3445,7 +3350,6 @@ specifiers:
   '@emotion/core': 10.0.10
   '@emotion/styled': 10.0.10
   '@emotion/styled-base': 10.0.10
-  '@rush-temp/app': 'file:./projects/app.tgz'
   emotion-theming: 10.0.10
   react: 16.8.6
   react-dom: 16.8.6

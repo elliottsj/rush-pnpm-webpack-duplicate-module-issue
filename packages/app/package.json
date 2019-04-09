@@ -4,14 +4,17 @@
   "description": "App",
   "private": true,
   "scripts": {
-    "build": "webpack "
+    "build": "webpack --mode none --entry ./index.js --output ./bundle.js",
+    "serve": "serve ."
   },
   "dependencies": {
     "@emotion/core": "10.0.10",
     "@emotion/styled": "10.0.10",
     "@emotion/styled-base": "10.0.10",
-    "component-lib": "1.0.0",
     "emotion-theming": "10.0.10",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "serve": "11.0.0",
     "webpack": "4.29.6",
     "webpack-cli": "3.3.0"
   }
