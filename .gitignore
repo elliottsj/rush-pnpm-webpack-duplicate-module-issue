@@ -4,3 +4,6 @@ node_modules/
 # Rush files
 common/temp/**
 package-deps.json
+
+bundle.js
+bundle.js.map

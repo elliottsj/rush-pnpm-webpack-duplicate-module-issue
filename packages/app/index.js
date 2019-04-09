@@ -12,15 +12,11 @@ const StyledDiv = styled.div(props => ({
   backgroundColor: props.theme.primaryColor || 'red'
 }));
 
-// `
-//   background-color: ${props => props.theme.primaryColor}
-// `;
-
 const App = () => (
   React.createElement(
     ThemeProvider,
     { theme: theme },
-    React.createElement(StyledDiv, {}, 'Bye')
+    React.createElement(StyledDiv, {}, 'The background of this div should be blue.')
   )
 );
 
