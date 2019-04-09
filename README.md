@@ -2,6 +2,8 @@
 
 Demonstration of an issue with Rush + pnpm + webpack where a module is executed & included multiple times.
 
+See https://github.com/Microsoft/web-build-tools/issues/1219.
+
 ### Usage
 
 ```
